@@ -3062,10 +3062,10 @@ var simplemaps_countrymap_mapinfo={  map_name: "country",  initial_view: {    x:
                                 ((u = !1), null == q && tP.create(), q.style.setProperty("display", "block"), q.style.setProperty("z-index", 2), q.style.setProperty("max-width", tr + "px"), (q.innerHTML = e.sm.content), tP.update_pos(e));
                         },
                         reset_pos: function (e, t, o) {
-                            void 0 == q && tP.create(), tP.set_pos(0 + t, 0 + e, o);
+                            void 0 == q && tP.create();
                         },
                         update_pos: function (e) {
-                            tP.set_pos(I, L, e);
+                            ;
                         },
                         pos: function (e, t) {
                             t && ((I = t.u), (L = t.l), (I -= Q), (L -= X));
