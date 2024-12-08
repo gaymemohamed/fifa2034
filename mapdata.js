@@ -35,7 +35,7 @@ var simplemaps_countrymap_mapdata={
     label_hover_color: "#ffffff",
     label_size: 16,
     label_font: "Arial",
-    label_display: "auto",
+    label_display: "yes",
     label_scale: "yes",
     hide_labels: "no",
     hide_eastern_labels: "no",
@@ -87,57 +87,68 @@ var simplemaps_countrymap_mapdata={
     SA03: {
       name: "Al Madinah",
       description: "9 Events",
-      url: "https://fifa-2034-3.webflow.io/cities/al-madinah"
+      url: "https://fifa-2034-3.webflow.io/cities/al-madinah",
+      state_click: "no"
     },
     SA04: {
       name: "Ash Sharqiyah",
       description: "11 Events",
-      url: "https://fifa-2034-3.webflow.io/cities/ash-sharqiyah"
+      url: "https://fifa-2034-3.webflow.io/cities/ash-sharqiyah",
+      state_click: "no"
     },
     SA05: {
       name: "Al Quassim",
       description: "6 Events",
-      url: "https://fifa-2034-3.webflow.io/cities/al-quassim"
+      url: "https://fifa-2034-3.webflow.io/cities/al-quassim",
+      state_click: "no"
     },
     SA06: {
       name: "Ha'il",
       description: "8 Events",
-      url: "https://fifa-2034-3.webflow.io/cities/hail"
+      url: "https://fifa-2034-3.webflow.io/cities/hail",
+      state_click: "no"
     },
     SA07: {
       name: "Tabuk",
       description: "6 Events",
-      url: "https://fifa-2034-3.webflow.io/cities/tabuk"
+      url: "https://fifa-2034-3.webflow.io/cities/tabuk",
+      state_click: "no"
     },
     SA08: {
       name: "Al Hudud ash Shamaliyah",
       description: "7 Events",
-      url: "https://fifa-2034-3.webflow.io/cities/al-hudud-ash-shamaliyah"
+      url: "https://fifa-2034-3.webflow.io/cities/al-hudud-ash-shamaliyah",
+      state_click: "no"
     },
     SA09: {
       name: "Jizan",
       description: "4 Events",
-      url: "https://fifa-2034-3.webflow.io/cities/jizan"
+      url: "https://fifa-2034-3.webflow.io/cities/jizan",
+      state_click: "no"
     },
     SA10: {
       name: "Najran",
       description: "5 Events",
-      url: "https://fifa-2034-3.webflow.io/cities/najran"
+      url: "https://fifa-2034-3.webflow.io/cities/najran",
+      state_click: "no"
     },
     SA11: {
       name: "Al Bahah",
       description: "6 Events",
-      url: "https://fifa-2034-3.webflow.io/cities/al-bahah"
+      url: "https://fifa-2034-3.webflow.io/cities/al-bahah",
+      state_click: "no"
     },
     SA12: {
       name: "Al Jawf",
       description: "2 Events",
-      url: "https://fifa-2034-3.webflow.io/cities/al-jawf"
+      url: "https://fifa-2034-3.webflow.io/cities/al-jawf",
+      state_click: "no"
     },
     SA14: {
       name: "`Asir",
       description: "16 Events",
-      url: "https://fifa-2034-3.webflow.io/cities/asir"
+      url: "https://fifa-2034-3.webflow.io/cities/asir",
+      state_click: "no"
     }
   },
   locations: {
