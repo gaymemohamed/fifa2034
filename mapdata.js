@@ -35,7 +35,7 @@ var simplemaps_countrymap_mapdata={
     label_hover_color: "#ffffff",
     label_size: 16,
     label_font: "Arial",
-    label_display: "yes",
+    label_display: "auto",
     label_scale: "yes",
     hide_labels: "no",
     hide_eastern_labels: "no",
@@ -49,7 +49,7 @@ var simplemaps_countrymap_mapdata={
     initial_zoom_solo: "no",
     region_opacity: 1,
     region_hover_opacity: 0.6,
-    zoom_out_incrementally: "yes",
+    zoom_out_incrementally: "no",
     zoom_percentage: 0.99,
     zoom_time: 0.5,
     
@@ -77,12 +77,14 @@ var simplemaps_countrymap_mapdata={
     SA01: {
       name: "Al Riyad",
       description: "168 Events",
-      url: "https://fifa-2034-3.webflow.io/cities/al-riyad"
+      url: "https://fifa-2034-3.webflow.io/cities/al-riyad",
+      state_click: "no"
     },
     SA02: {
       name: "Makkah",
       description: "2 Events",
-      url: "https://fifa-2034-3.webflow.io/cities/makkah"
+      url: "https://fifa-2034-3.webflow.io/cities/makkah",
+      state_click: "no"
     },
     SA03: {
       name: "Al Madinah",
