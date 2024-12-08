@@ -2912,7 +2912,7 @@ var simplemaps_countrymap_mapinfo={  map_name: "country",  initial_view: {    x:
                         eg.style.setProperty("height", "636px"),
                         eg.style.setProperty("top", "0"),
                         eg.style.setProperty("left", "0"),
-                        ev.style.setProperty("display", "yes" == f ? "block" : "none"),
+                        ev.style.setProperty("display", "yes" == f ? "block" : "block"),
                         e_.style.setProperty("z-index", "1"),
                         eh.appendChild(ey),
                         ey.appendChild(e$),
@@ -3052,7 +3052,7 @@ var simplemaps_countrymap_mapinfo={  map_name: "country",  initial_view: {    x:
                         create: function () {
                             (q = document.createElement("div")).setAttribute("id", "tt_sm_" + g),
                                 q.style.setProperty("position", "absolute"),
-                                q.style.setProperty("display", "none"),
+                                q.style.setProperty("display", "block"),
                                 ef.appendChild(q),
                                 (ef.onmousemove = this.pos),
                                 (q.onmousemove = this.pos);
@@ -3071,7 +3071,7 @@ var simplemaps_countrymap_mapinfo={  map_name: "country",  initial_view: {    x:
                             t && ((I = t.u), (L = t.l), (I -= Q), (L -= X));
                             var o = ef.getBoundingClientRect();
                             o && e && (e.clientX && ((I = e.clientY - o.top), (L = e.clientX - o.left)), e.touches && e.touches[0] && ((I = e.touches[0].clientY - o.top), (L = e.touches[0].clientX - o.left))),
-                                !tT && !w && !u && (!z || !ep) && tP.set_pos(I, L);
+                                !tT && !w && !u && (!z || !ep);
                         },
                         set_pos: function (e, t, o) {
                             if (q) {
