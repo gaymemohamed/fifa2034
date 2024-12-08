@@ -3097,7 +3097,7 @@ var simplemaps_countrymap_mapinfo={  map_name: "country",  initial_view: {    x:
                             }
                         },
                         hide: function () {
-                            void 0 != q && q.style.setProperty("display", "none"), (W = s.findPos(ef)) && ((X = W[0]), (Q = W[1]));
+                            void 0 != q && q.style.setProperty("display", "block"), (W = s.findPos(ef)) && ((X = W[0]), (Q = W[1]));
                         },
                     })),
                 (K = a.navigation_color ? a.navigation_color : "#f7f7f7"),
