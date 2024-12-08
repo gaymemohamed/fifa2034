@@ -41,11 +41,11 @@ var simplemaps_countrymap_mapdata={
     hide_eastern_labels: "no",
    
     //Zoom settings
-    zoom: "yes",
-    manual_zoom: "yes",
+    zoom: "no",
+    manual_zoom: "no",
     back_image: "no",
     initial_back: "no",
-    initial_zoom: "-1",
+    initial_zoom: "1",
     initial_zoom_solo: "no",
     region_opacity: 1,
     region_hover_opacity: 0.6,
