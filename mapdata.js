@@ -45,7 +45,7 @@ var simplemaps_countrymap_mapdata={
     manual_zoom: "no",
     back_image: "no",
     initial_back: "no",
-    initial_zoom: "1",
+    initial_zoom: "0",
     initial_zoom_solo: "no",
     region_opacity: 1,
     region_hover_opacity: 0.6,
