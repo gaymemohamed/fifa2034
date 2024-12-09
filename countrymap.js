@@ -3484,7 +3484,7 @@ var simplemaps_countrymap_mapinfo={  map_name: "country",  initial_view: {    x:
                                             }, 1e3);
                                     });
                             }
-                            var n = void 0 === a.states_title ? "States" : a.states_title,
+                            var n = void 0 === a.states_title ? "Province" : a.states_title,
                                 l = void 0 === a.regions_title ? "Regions" : a.regions_title,
                                 c = { state: { title: n, array: tp }, location: { title: void 0 === a.locations_title ? "Locations" : a.locations_title, array: t$ }, region: { title: l, array: tm } };
                             for (var p in c) {
