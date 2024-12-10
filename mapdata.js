@@ -76,13 +76,13 @@ var simplemaps_countrymap_mapdata={
   state_specific: {
     SA01: {
       name: "Al Riyad",
-      description: "168 Events",
+      description: "14 Events",
       url: "https://fifa-2034-3.webflow.io/cities/al-riyad",
       state_click: "no"
     },
     SA02: {
       name: "Makkah",
-      description: "2 Events",
+      description: "7 Events",
       url: "https://fifa-2034-3.webflow.io/cities/makkah",
       state_click: "no"
     },
@@ -94,7 +94,7 @@ var simplemaps_countrymap_mapdata={
     },
     SA04: {
       name: "Ash Sharqiyah",
-      description: "11 Events",
+      description: "7 Events",
       url: "https://fifa-2034-3.webflow.io/cities/ash-sharqiyah",
       state_click: "no"
     },
@@ -148,7 +148,7 @@ var simplemaps_countrymap_mapdata={
     },
     SA14: {
       name: "`Asir",
-      description: "16 Events",
+      description: "4 Events",
       url: "https://fifa-2034-3.webflow.io/cities/asir",
       state_click: "no"
     }
